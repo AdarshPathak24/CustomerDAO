@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <center>
+            <table>
+                <tr>
+                   <th>  
+                     <A href="FrontPage.html">Home</A>  
+                   </th> 
+                   <th>  
+                     <A href="InsertProduct.html">Insert Record</A> 
+                   </th> 
+                   <th>  
+                     <A href="UpdateProoduct.html">Search Record</A> 
+                   </th> 
+                   <th>  
+                     <A href="DeleteProduct.html">Delete Record</A> 
+                   </th> 
+                   <th>  
+                        <A href="SearchAll">Search All Record</A> 
+                   </th> 
+                  <th>  
+                   <A href="searchupdate.html">Update Record</A>  
+                   </th>  
+                </tr>   
+            </table>
+   </center> 
+        <br><br><br>
+        
+        <center>
+            <form method="post" action="InsertProduct">   
+   <table border="1">
+       <tr>
+           <th>Product Id</th>
+           <td><input type="text" name="txtId"></td>
+       </tr>
+       <tr>
+           <th>Product Name</th>
+           <td><input type="text" name="txtName"></td>
+       </tr>
+       <tr>
+           <th>Product Price</th>
+           <td><input type="text" name="txtPrice"></td>
+       </tr>
+       <tr>
+           <th>Type</th>
+           <td>
+               <select name="txtType">
+                   <option>Solid</option>
+                   <option>Liquid</option>
+                   <option>Gas</option>
+                   <option>Other</option>
+               </select>
+           </td>
+       </tr>
+       <tr>
+           <th></th>
+           <td><input type="submit"  value="Submit"></td>
+           <td><input type="reset"  value="Reset"></td>
+       </tr>
+    </table>
+             </form>   
+     </center>
+    </body>
+</html>
